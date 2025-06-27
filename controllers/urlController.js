@@ -24,7 +24,7 @@ exports.redirectToOriginal = async (req, res) => {
 
   doc.clicks.push({
     referrer: req.get('Referrer') || 'unknown',
-    location: 'coarse-location', // stub
+    location: 'coarse-location', 
   });
 
   await doc.save();
