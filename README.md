@@ -12,7 +12,7 @@ If deployed, update this section with your live link.
 - Set expiration time (in minutes) for links
 - Redirects to original URL using the short code
 - Logs timestamp and basic usage info
-- Simple and responsive frontend with plain HTML/CSS/JS
+- Simple and responsive frontend with plain HTML/CSS/JS 
 
 ## 📁 Folder Structure
 
