@@ -6,6 +6,6 @@ const controller = require('../controllers/urlController');
 
 router.post('/shorturls', controller.createShortUrl);
 router.get('/shorturls/:shortcode', controller.getStats);
-router.get('/:shortcode', controller.redirectToOriginal); // keep this public
+router.get('/:shortcode', controller.redirectToOriginal); 
 
 module.exports = router;
