@@ -6,12 +6,12 @@ const customLogger = require('./middleware/logger');
 
 const app = express();
 
-// Middleware setup
+
 app.use(express.json());
 app.use(express.static('public'));
 app.use(customLogger);
 
-// Routes
+
 app.use('/', shortUrlRoutes);
 
 // DB connection and server start
